@@ -1,0 +1,16 @@
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 1024px) {
+  .app {
+    max-width: 1216px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: start;
+  }
+
+}
